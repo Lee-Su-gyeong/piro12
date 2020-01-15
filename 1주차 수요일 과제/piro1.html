@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>piro</title>
+    <style>
+        #wrap{
+            overflow: hidden;
+        }
+        #left{
+            background-color: deepskyblue;
+            width: 600px;
+            height: 600px;
+            float: left;
+            color: white;
+
+        }
+        #right{
+            width: 600px;
+            height: 600px;
+            float: left;
+            
+        }
+        #wrap2{
+            width: 1200px;
+            height: 100px;
+            border: 1px solid black;
+            overflow: hidden;
+        }
+        #3{
+            float: left;
+        }
+        #18{ /*안되는 이유...?*/
+            float: left;
+            font-size: 80px;
+            color: gray;
+            display: inline-block;
+            
+        }
+        #a{ /*왼쪽 페이지의 글자를 가지고 있는 div */
+          margin: 210px 100px;
+        }
+        #p{ /*왼쪽 페이지의 글자의 p */
+            margin: 30px;
+        }
+        #b{ /*오른쪽 상단 박스*/
+            margin: 50px 50px;
+            text-align: left;
+        }
+        #c{ /*오른쪽 하단 박스*/
+            margin: 90px;
+        }
+        #find{
+            font-size: 10px;
+            position: absolute;
+            left:54%;
+            top:10%;
+            color: gray;
+        }
+        #find:hover{
+            text-decoration-line: underline;
+        }
+        #smalllogin{
+            width: 50px;
+            color: deepskyblue;
+            border-radius: 30px;
+            border: 1px solid deepskyblue;
+            font-size: 12px;
+            text-align: center;
+            position: absolute;
+            right: 480px;
+            top: 60px;
+
+        }
+        #smalllogin:hover{
+            background-color: azure;
+        }
+        #join{
+            width: 300px;
+            height: 27px;
+            border-radius: 30px;
+            background-color: deepskyblue;
+            color:white;
+            text-align: center;
+            margin: 10px;
+           
+        }
+        #join:hover{
+            background-color: steelblue;
+        }
+        #login{
+            width: 300px;
+            height: 25px;
+            border-radius: 30px;
+            border: 1px solid deepskyblue;
+            color: deepskyblue;
+            text-align: center;
+            margin: 10px;
+            
+        }
+        #login:hover{
+            background-color: azure;
+        }
+        #now{
+            font-size: 25px;
+            
+        }
+        a{
+            text-decoration: none;
+        }
+        
+    </style>
+</head>
+<body>
+<div id="wrap">
+    <div id="left">
+       <div id="a">
+            <p id="p"><img src="./1x/%EB%8F%8B%EB%B3%B4%EA%B8%B0.png" alt="">관심사를 팔로우 하세요.</p>
+            <p id="p"><img src="./1x/%EC%82%AC%EB%9E%8C.png" alt="">사람들이 이야기하고 있는 주제에 대해 알아보세요.</p>
+            <p id="p"><img src="./1x/%EB%8C%80%ED%99%94.png" alt="">대화에 참여하세요.</p>
+        </div>
+    </div>
+    <div id="right">
+        <div id="b">
+             <input type="text" name="uid" value="휴대폰 번호, 이메일 주소 또는 "/>
+             <input type="text" name="upassword" value="비밀번호"/>
+             <a href="https://twitter.com/login/error?redirect_after_login=%2F%3Flang%3Dko"><div id="smalllogin">로그인</div></a>
+         </div>
+         <a href="https://twitter.com/account/begin_password_reset"><p id="find">비밀번호 찾기</p></a>
+        <div id="c">
+             <p id="now"><img src="./1x/%EC%83%88.png" alt="" width="50px"><br>
+             <b>지금 세계 곳곳에서 무슨 일<br>이 일어나고 있는지 확인하세<br>요.</b>
+             </p>
+            <p><b>지금 트위터에 가입하세요.</b>
+             <a href="https://twitter.com/i/flow/signup" style="color: white"><div id="join">가입하기</div></a>
+             <a href="https://twitter.com/login?lang=ko"><div id="login">로그인</div></a>
+         </div>
+    </div>
+</div>
+<div id="wrap2">
+   <div id="3">
+        <div class="18">회사소개</div>
+        <span class="18">고객센터</div>
+        <span class="18">블로그</div>
+        <span class="18">시스템 현황</div>
+        <span class="18">인재채용</div>
+        <span class="18">이용약관</div>
+        <span class="18">개인정보 처리방침</div>
+        <div class="18">쿠키</div>
+        <div class="18">광고 정보</div>
+        <div class="18">브랜드</div>
+        <div id="18">애플리케이션</div>
+        <div id="18">광고</div>
+        <div id="18">마케팅</div>
+        <div id="18">비즈니스</div>
+        <div id="18">개발자</div>
+        <div id="18">디렉토리</div>
+        <div id="18">설정</div>
+        <div id="18">@2019 Twitter</div>
+    </div>       
+</div>
+</body>
+</html>
